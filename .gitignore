@@ -3,3 +3,26 @@ build/
 install/
 log/
 
+# Virtual environment
+.venv/
+
+# Bag data (large binary, already in src/nov10_data/)
+my_bag/
+rosbag2_*/
+
+# PDF docs
+*.pdf
+
+# Notebooks (draft/exploratory)
+notebooks/step_detection_analysis.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Claude
+.claude/
