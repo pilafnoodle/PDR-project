@@ -28,6 +28,8 @@ setup(
     entry_points={
         'console_scripts': [
             'imu_driver=data_collector.imu_driver:main',
+            # 'gps_driver=data_collector.gps_driver:main',
+
             'labeling_node = data_collector.labeling_node:main',
             'tap_node = data_collector.tap_node:main',
 
