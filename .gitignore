@@ -7,8 +7,7 @@ log/
 .venv/
 
 # Bag data (large binary, already in src/nov10_data/)
-my_bag/
-rosbag2_*/
+
 
 # PDF docs
 *.pdf
